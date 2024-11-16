@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+.form-register {
+  width: 400px;
+  background: #d0ffda;
+  padding: 30px;
+  margin: auto;
+  margin-top: 45px;
+  margin-bottom:45px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.controls {
+  width: 100%;
+  background: whitesmoke;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 2px solid green;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: rgb(131, 131, 131);
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-register a {
+  color: greenyellow;
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-register .botons {
+  width: 100%;
+  background: green;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+  textarea{
+  min-width: 100%;
+  resize: vertical;
+  min-height: 100px;
+  max-height: 200PX;
+  font-family: sans-serif;
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 2px solid green;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: rgb(131, 131, 131);
+}
+.containerM{
+  display: flex;
+}
+aside{
+  width: 200px;
+  background-color:rgb(3, 35, 54);
+}
+.fotodoc{
+  margin-left: 10px;
+  width: 150px;
+  height: 150px;
+  border-radius: 80px;
+  box-shadow: 0 0 15px 0 #636363;
+}
+.docp, h3{
+  margin-left: 15px;
+  text-align: center;
+  width: 150px;
+  height: auto;
+  font-family: 'calibri';
+  font-size: 20px;
+  color: whitesmoke;
+}
+h3{
+  text-decoration: underline;
+}
+h4{
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'calibri';
+  color: #636363;
+  font-size: 35px;
+}
+.space{
+  margin-left: 400px;
+}
